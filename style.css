@@ -1,0 +1,83 @@
+body {
+    margin: 0 auto;
+}
+
+.spotlight {
+    height: 860px;
+    /* background-image:url("https://www.pixelstalk.net/wp-content/uploads/images6/Nature-Wallpaper-HD-Free-download.jpg") ; */
+    /* background-color:beige; */
+    background-image: url("https://universetravel.org/wp-content/uploads/2022/12/Pathiramanal-Island-min.jpg");
+    /* background-image: url("https://www.worldbeachguide.com/photos/alappuzha-pier-sunset.jpg"); */
+}
+
+.title {
+    font-size: 70px;
+    /* font-family:'Satisfy'; */
+    font-family: 'Shadows Into Light';
+    color:rgba(0, 0, 0, 0.5);
+}
+
+.heading {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Shadows Into Light';
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.image{
+    width: 340px;
+    height: 340px;
+}
+
+.carImage{
+    height: 600px;
+}
+
+.iconDiv {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.icon i {
+    color: black;
+    font-size: 20px;
+}
+
+.icon:hover {
+    background-image: linear-gradient(to right, white, rgb(0, 247, 255));
+}
+
+.icon i:hover {
+    color: aliceblue;
+}
+
+.upArrow {
+    margin: 1rem 2rem;
+    float: right;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, white, rgb(0, 247, 255));
+}
+
+.bottom {
+    background-color:rgba(0, 195, 255, 0.185);
+    padding-bottom: 80px;
+}
